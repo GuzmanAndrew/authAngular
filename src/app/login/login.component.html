@@ -1,0 +1,9 @@
+<router-outlet> </router-outlet>
+<h1> login </h1>
+<form (ngSubmit)="setValue()" class="loginForm">
+  <input name="user" [(ngModel)]="user" placeholder="Login"  novalidate>
+  <br>
+  <input name="password" [(ngModel)]="password" placeholder="password">
+  <br>
+  <button>ENVIAR</button>
+</form>

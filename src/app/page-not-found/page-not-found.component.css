@@ -1,0 +1,14 @@
+.image{
+    width: 450px;
+    height: 400px;
+    position: relative;
+    left: 450px;
+}
+
+.message{
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    left: 550px;
+    top: 10px;
+}
